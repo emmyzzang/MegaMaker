@@ -2,10 +2,11 @@
 
 Provisioning a One-Directional E-mail System for MegaMaker
 
-REQUIREMENTS 
-	* Allow the server to send an email to the user (does not need to be encrypted -- just a simple email)
-	* Attach HTML format in the email
-	* Can be written in any programming language 
+REQUIREMENTS: 
+
+Allow the server to send an email to the user (does not need to be encrypted -- just a simple email)
+Attach HTML format in the email
+Can be written in any programming language 
 
 FEATURES
  	* A backend service will perform one function: 
