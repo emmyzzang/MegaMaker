@@ -1,15 +1,18 @@
 Provisioning a One-Directional E-mail System for MegaMaker
 
-REQUIREMENTS 
+REQUIREMENTS
+
     * Allow the server to send an email to the user (does not need to be encrypted -- just a simple email)
     * Attach HTML format in the email
     * Can be written in any programming language 
 
 FEATURES 
+
      * A backend service will perform one method: 
          1) Create New Password: Allow a user to create a new password and save it 
 
-SOLVE THESE PROBLEMS      
+SOLVE THESE PROBLEMS 
+     
     * How to establish a REST endpoint that allows user to reset password 
     * MAYBE use POST request to write to HTML page and give user a url that directs them to a services page to reset pw (our backend handles encryption)
     * MAYBE thru terminal be able to send email -> docker -> ubuntu -> linux shell 
